@@ -1,0 +1,6 @@
+package com.test;
+
+@Remote
+public interface Hello {
+ 
+}

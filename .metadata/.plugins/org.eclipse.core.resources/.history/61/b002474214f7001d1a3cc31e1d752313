@@ -1,0 +1,20 @@
+package com.cliente.example;
+
+import javax.naming.Context;
+import javax.naming.InitialContext;
+import javax.naming.NamingException;
+
+import com.example.HellowWorld;
+
+public class Test1 {
+
+	private static HellowWorld hellowWorld;  
+	
+	public static void main(String[]args) throws NamingException {
+		//(RemoteCalculator) context.lookup("ejb:" + appName + "/" + moduleName + "/" + distinctName + "/" + beanName + "!" + viewClassName);
+		Context context = new InitialContext();
+		hellowWorld = (HellowWorld) context.lookup("ejb:test-1/test-1//HellowWorld!HellowWorld");
+	System.out.println();	
+	}
+	
+}

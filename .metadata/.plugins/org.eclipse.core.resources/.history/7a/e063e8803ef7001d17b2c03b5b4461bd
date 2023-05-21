@@ -1,0 +1,23 @@
+package com.example;
+ 
+import javax.ejb.Stateless;
+
+/**
+ * Session Bean implementation class HellowWorld
+ */
+@Stateless(name = "HellowWorld")
+public class HellowWorldBean implements HellowWorldRemote {
+
+    /**
+     * Default constructor. 
+     */
+    public HellowWorld() {
+        // TODO Auto-generated constructor stub
+    }
+
+	@Override
+	public String hellowWorld() {
+		return "Yeaa";
+	}
+
+}
