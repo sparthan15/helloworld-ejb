@@ -1,11 +1,10 @@
 package com.example;
  
-import javax.ejb.Stateless;
 
 /**
  * Session Bean implementation class HellowWorld
  */
-@Stateless(name = "HellowWorld")
+@jakarta.ejb.Stateless
 public class HellowWorldBean implements HellowWorldRemote {
 
 

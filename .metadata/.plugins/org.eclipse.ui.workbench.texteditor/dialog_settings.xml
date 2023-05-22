@@ -12,6 +12,10 @@
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="jnd"/>
+			<item value="global"/>
+			<item value="bean"/>
+			<item value="jndi"/>
 			<item value="jee"/>
 			<item value="yea"/>
 			<item value="hello"/>

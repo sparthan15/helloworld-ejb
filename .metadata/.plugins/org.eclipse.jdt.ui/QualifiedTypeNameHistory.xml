@@ -6,4 +6,6 @@
     <fullyQualifiedTypeName name="javax.naming.Context"/>
     <fullyQualifiedTypeName name="java.util.Properties"/>
     <fullyQualifiedTypeName name="com.example.HellowWorldRemote"/>
+    <fullyQualifiedTypeName name="javax.naming.NameClassPair"/>
+    <fullyQualifiedTypeName name="javax.naming.NamingEnumeration"/>
 </qualifiedTypeNameHistroy>
